@@ -9,6 +9,10 @@ __pycache__/
 #.DS_Store
 .DS_Store
 
+# data sets
+MechaCar_mpg.csv
+Suspension_Coil.csv
+
 # Distribution / packaging
 .Python
 build/
