@@ -1,0 +1,15 @@
+```{r, label = 'DEPENDENCIES'}
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r, label ='READ IN DATA SET'}
+mpg_data <- read.csv("MechaCar_mpg.csv", check.names = F, stringsAsFactors = F)
+```
+
+```{r, label = 'LINEAR REGRESSION'}
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, mpg_data)
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, mpg_data))
+```
+
