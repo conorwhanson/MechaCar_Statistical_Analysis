@@ -19,12 +19,17 @@ The purpose of this project is to run statistical analysis on AutoRUs' newest pr
 While the manufacturing lots of suspension coils for MechaCars falls within the variance specification **overall**, lot 3 has a significant variance of 170 and fails to meet spec. This indicates some kind of manufacturing issue which is causing significant variance in spring pressure for lot 3. 
 
 ## T-Tests on Suspension Coils
-Running T-Tests on the suspension coils, both generally against the specified mean (1500 psi) and by manufacturing lot, resulted in the following findings:
+Running T-Tests on the suspension coils, both generally against the specified mean (1500 psi) and by manufacturing lot, resulted in the following findings.
 
-Overall the coil PSI fell within the manufacturing specifications, but only just. With a p-value of .06 the overall coil PSI is close to differing significantly when compared to spec.
+Overall the coil PSI fell within the manufacturing specifications, but only just. With a p-value of .06 the overall coil PSI is close to differing significantly when compared to spec:
+
 ![overall](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/coils_overall.png)
 
-2. 
+Lot comparisons of the coils show that while Lot1 and Lot2 are well within spec, Lot3 falls outside the spec of 1500 with a p-value of .042 and with a mean PSI nerly 4 pounds under spec.
+
+Lot 1       |Lot 2      |Lot 3
+------------|-----------|-----------
+![lot1](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/Lot1.png) | ![lot2](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/Lot2.png) | ![lot3](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/Lot3.png)
 
 ### Summary & Recommendations
 
