@@ -16,6 +16,10 @@ The purpose of this project is to run statistical analysis on AutoRUs' newest pr
 
 ![coil_summaries](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/coil_summaries.png)
 
+While the manufacturing lots of suspension coils for MechaCars falls within the variance specification **overall**, lot 3 has a significant variance of 170 and fails to meet spec. This indicates some kind of manufacturing issue which is causing significant variance in spring pressure for lot 3. 
+
+## T-Tests on Suspension Coils
+
 
 ### Summary & Recommendations
 
