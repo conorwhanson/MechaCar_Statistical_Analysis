@@ -23,7 +23,9 @@ Running T-Tests on the suspension coils, both generally against the specified me
 
 Overall the coil PSI fell within the manufacturing specifications, but only just. With a p-value of .06 the overall coil PSI is close to differing significantly when compared to spec:
 
-![overall](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/coils_overall.png)
+Overall PSI |
+------------|
+![overall](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/coils_overall.png)|
 
 Lot comparisons of the coils show that while Lot1 and Lot2 are well within spec, Lot3 falls outside the spec of 1500 with a p-value of .042 and with a mean PSI nerly 4 pounds under spec. This suggests a significant manufacturing difference resulting in a softer suspension coil on Lot3.
 
