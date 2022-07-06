@@ -13,14 +13,13 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, mpg_data))
 ```
 
-```{r}
-lm(mpg~vehicle_weight,mpg_data)
-summary(lm(mpg~vehicle_weight,mpg_data))
-mpg_weight <- lm(mpg ~ vehicle_weight, mpg_data)
+```{r, label = 'SUSPENSION COIL DATA'}
+coils <- read.csv("Suspension_Coil.csv", check.names = F, stringsAsFactors = F)
 
-yvals <- mpg_weight$coefficients['vehicle_weight']*mpg_data$vehicle_weight + mpg_weight$coefficients['(Intercept)']
+# summarize coil PSI data and group by lot
+total_summary <- coils %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 
-ggplot(mpg_data, aes(x=vehicle_weight, y=mpg)) + geom_point() + geom_line(aes(y=yvals), color = "red",)
-
+lot_summary <- coils %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 ```
+
 

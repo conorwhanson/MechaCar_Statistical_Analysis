@@ -10,7 +10,10 @@ The purpose of this project is to run statistical analysis on AutoRUs' newest pr
 
 1. Variables which show a non-random statistical relationship to mpg are the vehicle length and ground clearance. 
 2. The slope of the line is not zero, which means one (or more) variable has a statistically significant relation to mpg. Looking at the coefficient table reveals that vehicle length and ground clearance appear to be these variables. This means that these variables likely affect mpg in some significant way.
-3. Though a couple of variables show some statistical relationship to mpg, overall this linear model does **not** effectively predict the mpg of the MechaCar prototypes. This could be due to the small data set, or perhaps some other yet-to-be-determined factor. 
+3. Though a couple of variables show some statistical relationship to mpg, overall this linear model does **not** effectively predict the mpg of the MechaCar prototypes. This could be due to the small data set, or perhaps some other yet-to-be-determined factor.
+
+## Summary Statistics on Suspension Coils
+![coil_summaries]()
 
 
 ### Summary & Recommendations
