@@ -35,5 +35,8 @@ Lot 1       |Lot 2      |Lot 3
 ------------|-----------|-----------
 ![lot1](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/Lot1.png) | ![lot2](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/Lot2.png) | ![lot3](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/Lot3.png)
 
+## Study Design: MechaCar vs. Competition
+
+
 ### Summary & Recommendations
 
