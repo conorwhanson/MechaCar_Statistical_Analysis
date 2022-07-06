@@ -20,8 +20,11 @@ While the manufacturing lots of suspension coils for MechaCars falls within the 
 
 ## T-Tests on Suspension Coils
 Running T-Tests on the suspension coils, both generally against the specified mean (1500 psi) and by manufacturing lot, resulted in the following findings:
-1. Overall the coil PSI fell within the manufacturing specifications, but only just. With a p-value of .06 the overall coil PSI is close to differing significantly when compared to spec.
-![overall]()
+
+Overall the coil PSI fell within the manufacturing specifications, but only just. With a p-value of .06 the overall coil PSI is close to differing significantly when compared to spec.
+![overall](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/coils_overall.png)
+
+2. 
 
 ### Summary & Recommendations
 
