@@ -13,7 +13,8 @@ The purpose of this project is to run statistical analysis on AutoRUs' newest pr
 3. Though a couple of variables show some statistical relationship to mpg, overall this linear model does **not** effectively predict the mpg of the MechaCar prototypes. This could be due to the small data set, or perhaps some other yet-to-be-determined factor.
 
 ## Summary Statistics on Suspension Coils
-![coil_summaries]()
+
+![coil_summaries](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/coil_summaries.png)
 
 
 ### Summary & Recommendations
