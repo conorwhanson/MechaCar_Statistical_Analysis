@@ -19,7 +19,9 @@ The purpose of this project is to run statistical analysis on AutoRUs' newest pr
 While the manufacturing lots of suspension coils for MechaCars falls within the variance specification **overall**, lot 3 has a significant variance of 170 and fails to meet spec. This indicates some kind of manufacturing issue which is causing significant variance in spring pressure for lot 3. 
 
 ## T-Tests on Suspension Coils
-
+Running T-Tests on the suspension coils, both generally against the specified mean (1500 psi) and by manufacturing lot, resulted in the following findings:
+1. Overall the coil PSI fell within the manufacturing specifications, but only just. With a p-value of .06 the overall coil PSI is close to differing significantly when compared to spec.
+![overall]()
 
 ### Summary & Recommendations
 
