@@ -29,7 +29,7 @@ Overall PSI |
 ------------|
 ![overall](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/coils_overall.png)|
 
-Lot comparisons of the coils show that while Lot1 and Lot2 are well within spec, Lot3 falls outside the spec of 1500 with a p-value of .042 and with a mean PSI nerly 4 pounds under spec. This suggests a significant manufacturing difference resulting in a softer suspension coil on Lot3.
+Lot comparisons of the coils show that while Lot1 and Lot2 are well within spec, Lot3 falls outside the spec of 1500 with a p-value of .042 and with a mean PSI nearly 4 pounds under spec. This suggests a significant manufacturing difference resulting in a softer suspension coil on Lot3.
 
 Lot 1       |Lot 2      |Lot 3
 ------------|-----------|-----------
