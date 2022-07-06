@@ -13,3 +13,14 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, mpg_data))
 ```
 
+```{r}
+lm(mpg~vehicle_weight,mpg_data)
+summary(lm(mpg~vehicle_weight,mpg_data))
+mpg_weight <- lm(mpg ~ vehicle_weight, mpg_data)
+
+yvals <- mpg_weight$coefficients['vehicle_weight']*mpg_data$vehicle_weight + mpg_weight$coefficients['(Intercept)']
+
+ggplot(mpg_data, aes(x=vehicle_weight, y=mpg)) + geom_point() + geom_line(aes(y=yvals), color = "red",)
+
+```
+
