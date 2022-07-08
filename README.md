@@ -2,7 +2,7 @@
 ![car_side_view](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/car_exploded_view.png)
 
 ## Purpose & Overview
-The purpose of this project is to run statistical analysis on AutoRUs' newest prototype, MechaCar, using R. To get production back on track an analysis of mpg predictors, as well as summary statistics on suspension coil differences (based on manufacturing batches), is done.
+The purpose of this project is to run statistical analysis on AutoRUs' newest prototype, MechaCar, using R. In order to get production back on track an analysis of mpg predictors, as well as summary statistics on suspension coil differences (based on manufacturing batches), is done. Finally, a suggested statistical study is offered to comapre MechaCar to competitor designs.
 
 ## Linear Regression to Predict MPG
 1. Variables which show a non-random statistical relationship to mpg are the vehicle length and ground clearance. 
@@ -36,7 +36,6 @@ Lot 1       |Lot 2      |Lot 3
 ![lot1](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/Lot1.png) | ![lot2](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/Lot2.png) | ![lot3](https://github.com/conorwhanson/MechaCar_Statistical_Analysis/blob/main/resources/Lot3.png)
 
 ## Study Design: MechaCar vs. Competition
+Given competitor prototypes, AutoRUs would do well to study a number of metrics of MechaCar alongside the competitors. One such study would be an analysis of maintenance cost per mile driven. The car's systems could be broken into natural chunks: engine, transmission, brakes, suspension, electrical, interior, etc. Given each chunk a longitudinal study could be done comapring maintenance cost for each system. 
 
-
-### Summary & Recommendations
-
+For example: ceramic coated brake rotors would cut down on brake system maintenance per mile by .50¢ due to their extra corrosion resistance and durability. An A/B study could be done between a group of MechaCars with ceramic coated rotors and a group without, and then compare the results to a competitor over a period of 2 years. To reject the null hyopthesis ("ceramic coated brake rotors have no significant impact on brake maintenance per mile") we'd need a z-score summary statistic (standard deviation) significantly lower than the mean of the control group (regular brake rotors) to show that such a mechanical change would, in fact, lower brake maintenance cost.
