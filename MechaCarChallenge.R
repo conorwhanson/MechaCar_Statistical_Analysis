@@ -14,16 +14,25 @@ coils <- read.csv("Suspension_Coil.csv", check.names = F, stringsAsFactors = F)
 # Summarize coil PSI data, as well as group by manufacturing lot
 total_summary <- coils %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 
-lot_summary <- coils %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+lot_summary <- coils %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = "keep")
 
 # T-Tests on suspension coils generally and by lot
 t.test(coils$PSI, mu= 1500)
 
 # lot 1
 t.test(subset(coils$PSI, coils$Manufacturing_Lot == "Lot1"), mu=1500)
+# OR
+# lot1 = subset(coils, coils$Manufacturing_Lot == "Lot1")
+# t.test(lot1$PSI, mu=1500)
 
 # lot 2
 t.test(subset(coils$PSI, coils$Manufacturing_Lot == "Lot2"), mu=1500)
+# OR
+# lot2 = subset(coils, coils$Manufacturing_Lot == "Lot2")
+# t.test(lot2$PSI, mu=1500)
 
 # lot 3
 t.test(subset(coils$PSI, coils$Manufacturing_Lot == "Lot3"), mu=1500)
+# OR
+# lot3 = subset(coils, coils$Manufacturing_Lot == "Lot3")
+# t.test(lot3$PSI, mu=1500)
